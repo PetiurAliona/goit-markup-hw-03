@@ -218,6 +218,7 @@ span {
 
 .filter {
   list-style: none;
+  margin-bottom: 34px;
 }
 
 .button-filter {
@@ -228,6 +229,7 @@ span {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  border-radius: 4px;
 }
 
 .button-filter:hover,
