@@ -164,6 +164,8 @@ span {
   line-height: 1.14;
   text-transform: uppercase;
 }
+
+/*Наша команда*/
 .section p {
   font-family: Roboto;
   font-size: 14px;
@@ -196,6 +198,8 @@ span {
   line-height: 1.19;
   text-align: center;
 }
+
+/*Footer*/
 
 .footer {
   background-color: var(--dark-bg);
@@ -235,6 +239,7 @@ span {
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
+  border: 1px solid transparent;
 }
 
 .button-filter:hover,
