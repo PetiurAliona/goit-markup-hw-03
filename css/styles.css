@@ -3,7 +3,7 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --white-color-text: #ffffff;
-  --primary-bg: #e5e5e5;
+  --primary-bg: #ffffff;
   --secondary-bg: #f5f4fa;
   --dark-bg: #2f303a;
 }
@@ -68,11 +68,13 @@ body {
 
 header {
   background-color: var(--white-color-text);
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
   display: flex;
   align-items: center;
+  /*border-bottom: 1px solid #ECECEC;*/
 }
 
 .header-menu {
@@ -163,7 +165,7 @@ span {
   color: var(--accent-color);
 }
 
-/* ===HERO*===*/
+/* ======HERO======*/
 .hero {
   background-color: var(--dark-bg);
   color: var(--white-color-text);
@@ -202,12 +204,31 @@ span {
   margin-left: 700px;*/
 }
 
+/*============Переваги========*/
+.card-set {
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+  padding: 0;
+  list-style: none;
+}
+
+.benefits-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .section {
   color: var(--primary-text-color);
   padding-bottom: 94px;
   padding-top: 94px;
 
   /*background-color: rebeccapurple;*/
+}
+
+/* =====Чем мы занимаемся===== */
+
+.about-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .section-about {
