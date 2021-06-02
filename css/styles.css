@@ -200,21 +200,26 @@ span {
   border-radius: 4px;
   padding: 10px 32px;
   position: absolute;
+
   /*margin-right: 700px;
   margin-left: 700px;*/
 }
 
 /*============Переваги========*/
+
 .card-set {
   display: flex;
+  flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
   padding: 0;
   list-style: none;
 }
 
-.benefits-item:not(:last-child) {
-  margin-right: 30px;
+.benefits-item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 120px) / 4);
 }
 
 .section {
@@ -227,8 +232,10 @@ span {
 
 /* =====Чем мы занимаемся===== */
 
-.about-item:not(:last-child) {
-  margin-right: 30px;
+.about-item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 90px) / 3);
 }
 
 .section-about {
@@ -245,12 +252,32 @@ span {
   text-transform: uppercase;
 }
 
-/*Наша команда*/
+/*======Наша команда======*/
+
+.team-item {
+  margin-left: 30px;
+  margin-top: 30px;
+
+  flex-basis: calc((100% - 120px) / 4);
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* .team-item:not(:last-child) { 
+  margin-right: 30px;
+}*/
+
 .section p {
   font-family: Roboto;
   font-size: 14px;
   line-height: 1.71;
   margin-bottom: 0;
+}
+
+.position {
+  padding-bottom: 30px;
 }
 
 .section-title,
@@ -272,6 +299,8 @@ span {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .our-team p {
   font-size: 16px;
@@ -304,10 +333,25 @@ span {
 }
 
 /* Portolio */
+.button-item:not(:last-child) {
+  margin-right: 8px;
+}
 
 .filter {
   list-style: none;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.examples-item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 90px) / 3);
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 
 .button-filter {
