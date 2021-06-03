@@ -195,7 +195,8 @@ span {
   display: inline-flex;
   margin-top: 0px;
   margin-bottom: 30px;
-  width: 835px;
+  width: 696px;
+  letter-spacing: 0.06em;
 }
 
 .button {
@@ -300,7 +301,7 @@ span {
   margin-bottom: 50px;
 }
 
-.our-team {
+.section-team {
   background-color: var(--secondary-bg);
 }
 .name {
