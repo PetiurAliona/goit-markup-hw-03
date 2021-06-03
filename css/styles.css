@@ -56,6 +56,10 @@ body {
   margin: 0;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -180,8 +184,10 @@ span {
 }
 
 .hero-title {
+  display: inline-flex;
   margin-top: 0px;
   margin-bottom: 30px;
+  width: 835px;
 }
 
 .button {
@@ -191,7 +197,8 @@ span {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: inline-flex;
+  display: block;
+  margin: 0 auto;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -199,7 +206,6 @@ span {
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 10px 32px;
-  position: absolute;
 
   /*margin-right: 700px;
   margin-left: 700px;*/
@@ -313,6 +319,7 @@ span {
 .footer {
   background-color: var(--dark-bg);
   color: var(--white-color-text);
+  padding-bottom: 60px;
 }
 
 .contacts-footer a {
@@ -325,6 +332,10 @@ span {
 }
 
 .logo-footer {
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 20px;
+
   color: var(--white-color-text);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -348,13 +359,19 @@ span {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
+}
 
+.examples-text {
+  padding: 24px 20px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  border-top: none;
 }
 
 .button-filter {
+  padding: 6px 22px;
+
   color: var(--title-text-color);
   background-color: var(--secondary-bg);
   font-weight: 500;
@@ -377,6 +394,7 @@ span {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin: 0;
 }
 
 .p-title {
